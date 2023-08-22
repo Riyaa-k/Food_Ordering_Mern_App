@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#carouselExampleFade{
+  object-fit: contain;
+}
+#carousel {
+  max-height: 700px; /* Increase the max-height for larger size */
+  object-fit: contain;
+  padding: 10px;
+  position: relative; /* Ensure relative positioning for caption */
+}
+
+.carousel-inner {
+  position: relative; /* Ensure relative positioning for caption */
+}
+
+
+
+.carousel-caption input {
+  width: 100%;
+  height: 50px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M14.94%2016.47a.75.75%200%2001-1.06%200L8%2011.47%202.13%2016.35a.75.75%200%2001-1.06-1.06l6-6a.75.75%200%20011.06-1.06l6%206a.75.75%200%20010%201.06z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5.06%2016.47a.75.75%200%20011.06-1.06L12%2011.47l5.88%205.88a.75.75%200%20011.06%201.06l-6%206a.75.75%200%2001-1.06%200l-6-6a.75.75%200%200010-1.06z%22%2F%3E%3C%2Fsvg%3E");
+}
+
